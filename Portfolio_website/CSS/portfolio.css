@@ -1,0 +1,202 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;}
+
+#home .image>img{
+    width:400px;
+    height:400px;
+    border-radius: 50%;
+}
+#home::backdrop{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3); /* Background color with transparency */
+    backdrop-filter: blur(1px); 
+}
+.navbar-nav .nav-link{
+    height: 25px;
+    padding-top: 1px;
+}
+.navbar-nav .border-right{
+    border-right: 1px solid black;
+}
+.btn a{
+    text-decoration: none;
+    color:white;
+}
+.btn a:hover{
+    color:black;
+}
+#typewriter-text {
+    border-right: 1px solid black; /* Simulates the cursor */
+    white-space: nowrap; /* Ensures text stays on one line */
+    overflow: hidden; /* Hides overflowed text */
+    width: fit-content; /* Adjusts width based on content */
+    animation: typewriter 3s steps(40) infinite, blink-caret 0.75s step-end infinite;
+    color:blueviolet;
+}
+.footer img{
+    width:40px;
+    height:40px;
+    
+}
+#shareButton{
+    width: -10px;
+  font-size: 18px;
+  background-color: #3934db;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  animation: pulse 1s infinite ease-in-out;
+}
+#shareButton:hover {
+   background-color: #2ecc71;
+  box-shadow: 0 0 10px #2ecc71;
+  }
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+.resume-page .exp-year, .eud-year{
+    font-size: 12px;
+}
+.skills .prog-bar{
+    border: 1px solid black;
+    font-size: 10px;
+    width:200px;
+    height: 15px;
+    border-radius: 5px;
+    
+}
+.skills .row{
+     --bs-gutter-x: 0px !important;
+}
+.skills .prog-bar > div{
+    height: 15px;
+    border-radius: 5px;
+    width:0%;
+}
+.prog-bar span{
+    float: right;
+    color: white;
+}
+.prog-bar .html{
+    background-color: lightcoral;
+    animation: html 3s linear forwards;
+}
+.prog-bar .css{
+    background-color: rgb(162, 96, 96);
+    animation: css 3s linear forwards;
+}
+.prog-bar .bootstrap{
+    background-color: rgb(174, 130, 130);
+    animation: bootstrap  3s linear forwards;
+}
+.prog-bar .Javascript{
+    background-color: rgb(174, 130, 130);
+    animation: bootstrap  3s linear forwards;
+}
+@keyframes html{
+    100%{
+        width:86%;
+    }
+}
+@keyframes css{
+    100%{
+        width:80%;
+    }
+}
+@keyframes bootstrap{
+    100%{
+        width:75%;
+    }
+}
+@keyframes Javascript{
+    100%{
+        width:75%;
+    }
+}
+.project-page img{
+    width:400px;
+    height:200px;
+}
+.contact-page{
+    display:flex;
+    align-items: start;
+    
+}
+.contact-page > .text-left{
+    flex:1;
+}
+.contact-page form{
+    flex:1;
+}
+.text-right .form{
+    display: flex;
+}
+.text-right .row-content{
+    flex: 1;
+}
+.hidden{
+    display: none;
+}
+
+
+.form .btn{
+    width:130px;
+    height:130px;
+    border-radius: 50%;
+}
+@media (min-width:320px) and (max-width:991px){
+    .contact-page{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-page .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+@media (min-width:992px) and (max-width:1100px){
+    .contact-page .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+
+
+
+/* #home .d-flex{
+   animation: fadein 1s linear;
+}
+@keyframes fadein{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 100;
+    }
+} */
+
+
