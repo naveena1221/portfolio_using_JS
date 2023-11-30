@@ -121,6 +121,11 @@ submit&&submit.addEventListener('click',function(event){
     };
     console.log(obj);
     localStorage.setItem("obj", JSON.stringify(obj));
+    fname.value="";
+    lname.value="";
+    email.value="";
+    msg.value="";
+
 });
 
 document.getElementById('shareButton').addEventListener('click', function() {
