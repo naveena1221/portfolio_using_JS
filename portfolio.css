@@ -182,6 +182,11 @@ body{
         align-items: center;
     }
 }
+@media (min-width:320px) and (max-width:767px){
+    #home .d-flex{
+        display: block !important;
+    }
+}
 
 
 
