@@ -1,9 +1,11 @@
 body{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;}
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    user-select: none;
+}
 
 #home .image>img{
-    width:400px;
-    height:400px;
+    width:350px;
+    height:350px;
     border-radius: 50%;
 }
 /* #home::backdrop{
@@ -185,6 +187,15 @@ body{
 @media (min-width:320px) and (max-width:767px){
     #home .d-flex{
         display: block !important;
+    }
+    #home .image>img{
+        /* width:200px;
+        height:200px;
+        border-radius: 50%; */
+        display: none;
+    }
+    #typewriter-text{
+        font-size: 12px;
     }
 }
 
