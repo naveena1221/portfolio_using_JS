@@ -5,8 +5,7 @@ body{
             background-size: cover;
             color: white;
             height: 100vh;
-            /* padding: 50px; */
-            /* overflow: hidden; */
+            
 }
 
 .glass-container {
@@ -27,16 +26,7 @@ body{
     height:350px;
     border-radius: 50%;
 }
-/* #home::backdrop{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.3); /* Background color with transparency */
-    /* backdrop-filter: blur(1px);  */
-/* } */ */
+
 .navbar-nav .nav-link{
     height: 25px;
     padding-top: 1px;
@@ -94,62 +84,7 @@ body{
     font-size: 12px;
     color: white;
 }
-/* .skills .prog-bar{
-    border: 1px solid black;
-    font-size: 10px;
-    width:200px;
-    height: 15px;
-    border-radius: 5px;
-    
-}
-.skills .row{
-     --bs-gutter-x: 0px !important;
-}
-.skills .prog-bar > div{
-    height: 15px;
-    border-radius: 5px;
-    width:0%;
-}
-.prog-bar span{
-    float: right;
-    color: white;
-}
-.prog-bar .html{
-    background-color: lightcoral;
-    animation: html 3s linear forwards;
-}
-.prog-bar .css{
-    background-color: rgb(162, 96, 96);
-    animation: css 3s linear forwards;
-}
-.prog-bar .bootstrap{
-    background-color: rgb(174, 130, 130);
-    animation: bootstrap  3s linear forwards;
-}
-.prog-bar .Javascript{
-    background-color: rgb(174, 130, 130);
-    animation: bootstrap  3s linear forwards;
-}
-@keyframes html{
-    100%{
-        width:86%;
-    }
-}
-@keyframes css{
-    100%{
-        width:80%;
-    }
-}
-@keyframes bootstrap{
-    100%{
-        width:75%;
-    }
-}
-@keyframes Javascript{
-    100%{
-        width:75%;
-    }
-} */
+
 .container {
     position: relative;
     display: flex;
@@ -300,7 +235,6 @@ body{
     height:200px;
 }
 .card {
-    /* background-color: transparent !important; */
     background: url('https://wallpapercave.com/wp/JRSM5eu.jpg') no-repeat center center fixed;
     border: none;
     height: 100%;
@@ -360,30 +294,25 @@ body{
         display: block !important;
     }
     #home .image>img{
-        /* width:200px;
-        height:200px;
-        border-radius: 50%; */
+        
         display: none;
     }
     #typewriter-text{
         font-size: 12px;
     }
+    .projectList{
+        font-size: 0.5rem;
+        padding: 1px;
+    }
+    .container-fluid{
+        padding: 0px;
+    }
 }
 
 
 
 
 
-/* #home .d-flex{
-   animation: fadein 1s linear;
-}
-@keyframes fadein{
-    0%{
-        opacity: 1;
-    }
-    100%{
-        opacity: 100;
-    }
-} */
+
 
 
