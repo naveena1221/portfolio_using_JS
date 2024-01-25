@@ -239,6 +239,7 @@ body{
     background-size: cover; */
     border: none;
     height: 100%;
+    background-color: transparent;
 }
 .contact-page{
     display:flex;
