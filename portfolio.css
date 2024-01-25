@@ -234,8 +234,9 @@ body{
     width:400px;
     height:200px;
 }
-.card {
-    background: url('https://wallpapercave.com/wp/JRSM5eu.jpg') no-repeat center center fixed;
+#project .card {
+    /* background: url('https://wallpapercave.com/wp/JRSM5eu.jpg') no-repeat center center fixed;
+    background-size: cover; */
     border: none;
     height: 100%;
 }
