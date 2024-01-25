@@ -300,20 +300,13 @@ body{
     #typewriter-text{
         font-size: 12px;
     }
-    .projectList{
+    /* .projectList{
         font-size: 0.5rem;
         padding: 1px;
-    }
+    } */
 
 }
-@media (min-width: 768px) {
-    /* Adjust padding for larger screens (desktop) */
-    .glass-container.m-2 p a {
-      padding: 0;
-      margin: 0;
-      color: white;
-    }
-  }
+
 
 
 
