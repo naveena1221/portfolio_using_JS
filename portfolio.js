@@ -1,4 +1,4 @@
-const textArray = ["I'm a web developer", "I'm a Front-end developer"];
+const textArray = ["I'm a Web Developer", "I'm a Front-End Developer"];
         let currentIndex = 0;
         let currentText = '';
         let isDeleting = false;

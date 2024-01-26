@@ -15,7 +15,7 @@ body{
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(10px); /* For Safari */
     border: 1px solid rgba(255, 255, 255, 0.3); /* Border to enhance the effect */
-    /* padding: 20px; */
+    padding: 10px;
     border-radius: 10px;
     box-shadow: 15px 15px 15px rgba(175, 170, 170, 0.15);
     color: white;
